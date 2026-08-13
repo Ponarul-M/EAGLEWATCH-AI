@@ -1,0 +1,28 @@
+# Python
+backend/venv/
+backend/__pycache__/
+**/__pycache__/
+*.pyc
+backend/eaglewatch.db
+*.pt
+!backend/yolo11n.pt
+
+# Env / secrets
+.env
+backend/.env
+*.env
+!*.env.example
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log

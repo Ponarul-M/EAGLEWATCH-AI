@@ -1,0 +1,9 @@
+Place demo videos here:
+  car_accident.mp4
+  two_wheeler_accident.mp4
+  women_safety.mp4
+  normal.mp4
+
+Served at http://localhost:8000/sample_video/<filename>
+Also used directly by the real AI pipeline (VIDEO_SOURCE) - the
+Monitoring tab and the AI worker always read the same file.
